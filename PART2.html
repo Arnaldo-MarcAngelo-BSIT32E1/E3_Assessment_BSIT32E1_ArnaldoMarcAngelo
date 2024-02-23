@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="ccs1.css">
+	<title>Valorant</title>
+</head>
+<body>
+	<h1>Welcome to Valorant</h1>
+	<p>Valorant is a free-to-play first-person tactical hero shooter developed and published by Riot Games, for Windows. Teased under the codename Project A in October 2019, the game began a closed beta period with limited access on April 7, 2020, followed by a release on June 2, 2020.</p>
+	<ul>
+		<li>Astra</li>
+        <li>Yoru</li>
+        <li>Skye</li>
+	</ul>
+	<img src="bg1.png"/>
+	<ol>
+		<li>Raze</li>
+		<li>Reyna</li>
+		<li>Sova</li>
+	</ol>
+	<p>Want to learn valorant? <a href="https://www.youtube.com/watch?v=S-rxwnC7ygg">Click here</a></p>
+	<h3 style="color: burlywood">h3 heading</h3>
+	<input type="text" id="number" oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')"/>
+	<button onclick="Function()">CALCULATE</button>
+	<p id="output"></p>
+	<script>
+		function Function(){
+			document.getElementById("output").innerHTML = document.getElementById("number").value % 2 == 0 ? "EVEN" : "ODD";
+		}
+	</script>
+</body>
+</html>
